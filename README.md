@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/MohamedFaalil/order_summary_page)
-- Live Site URL: (https://mohamedfaalil.github.io/order_summary_page/)
+- Solution URL: [Visit](https://github.com/MohamedFaalil/order_summary_page)
+- Live Site URL: [Repository](https://mohamedfaalil.github.io/order_summary_page/)
 
 ## My process
 
