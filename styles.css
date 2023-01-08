@@ -26,46 +26,45 @@ body{
     background-size: cover;
     background-color: var( --pale-blue);
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
-    
+    font-size: 1rem;
 }
 
-#card {
+.card {
     max-width: 450px;
     background-color: white;
     color: var(--desaturated-blue);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 3.125rem auto;
 }
 
-#title{
+.title{
     color: var(--dark-blue);
     font-weight: 900;
-    font-size: 32px; 
+    font-size: 2rem;
 }
 
-#hero-img{
+.hero-img{
   
     width: 100%;
-    height: 220px;
+    height: 13.75rem;
 
 }
 .container{
-    padding: 30px;
+    padding: 1.875rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
-#order-description{
-    line-height: 25px;
+.order-description{
+    line-height: 1.5625rem;
 }
 
 .container > * {
-    margin: 13px 0;
+    margin: 0.8125rem 0;
 }
 
 button {
@@ -73,37 +72,37 @@ button {
     border: none;
     font-weight: 700;
     font-size: 0.9rem;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     cursor: pointer;
 }
 
-#proceed-button {
+.proceed-button {
     background-color: var(--bright-blue);
     padding: 1rem 0;
     color: white;
-    box-shadow: 0 20px 30px -8px rgb(197 189 245);  
+    box-shadow: 0 1.25rem 1.875rem -0.5rem rgb(197 189 245);
 }
 
-#proceed-button:hover{
+.proceed-button:hover{
      opacity: 0.8;
 }
 
-#cancel-button{
+.cancel-button{
     background-color: white;
     color: var(--desaturated-blue);
-    margin-top: 22px;
+    margin-top: 1.375rem;
  
 }
 
-#cancel-button:hover{
+.cancel-button:hover{
     color: black;
 }
 
 .plan-container{
-    font-size: 16px;
+    font-size: 1rem;
     background-color: var(--very-pale-blue);
-    padding: 25px;
-    border-radius: 12px;
+    padding: 1.5625rem;
+    border-radius: 0.75rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,7 +112,7 @@ button {
 
 .plan-container a{
     color: var(--bright-blue);
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 700; 
 }
 
@@ -127,22 +126,22 @@ button {
 }
 
 .plan-description{
-    line-height: 20px;
-    margin-right: 75px;
+    line-height: 1rem;
+    margin-right: 4.6875rem;
 }
 footer{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 @media screen and (max-width: 375px) {
-    #card {
-       width: 350px;
+    .card {
+       width: 21.875rem;
     }
-    #hero-img{
+    .hero-img{
         position: relative;
         width: 136vw;
-        left: -45px;
+        left: -2.81225rem;
     }
 
 }
